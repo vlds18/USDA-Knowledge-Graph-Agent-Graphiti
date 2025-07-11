@@ -12,7 +12,7 @@ Features:
 2) Generates professional clinical nutrition responses
 3) Evaluates outputs using Judgeval scorers for automated benchmarking and unit testing
 
-Folder structure:
+Folder structure: <br>
 .
 ├── judegval-graphiti-agent.ipynb   #Main notebook with agent code, evaluation, and tests <br>
 ├── USDA-Food-Dataset #Folder containing USDA data for generating Knowledge Graph Triplets <br>
