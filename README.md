@@ -14,9 +14,9 @@ Features:
 
 Folder structure:
 .
-├── judegval-graphiti-agent.ipynb   #Main notebook with agent code, evaluation, and tests
-├── USDA-Food-Dataset #Folder containing USDA data for generating Knowledge Graph Triplets
-├── NutriBench.csv #Benchmark dataset for evalution
+├── judegval-graphiti-agent.ipynb   #Main notebook with agent code, evaluation, and tests <br>
+├── USDA-Food-Dataset #Folder containing USDA data for generating Knowledge Graph Triplets <br>
+├── NutriBench.csv #Benchmark dataset for evalution <br>
 └── README.md
 
 Setup Instructions:
