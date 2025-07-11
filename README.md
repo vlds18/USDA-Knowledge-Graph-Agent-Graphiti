@@ -2,25 +2,24 @@
  
 This repository contains the implementation of HealthBot, a clinical nutrition question-answering agent. The agent integrates retrieval from a Graphiti knowledge graph with a large language model for response generation and is evaluated using Judgeval for faithfulness, correctness, and instruction adherence.
 
-Overview ->
+### Overview ->
 Language: Python 3.11.8
 
 Frameworks: LangGraph, LangChain, Graphiti, Judgeval
 
-Features:
+### Features:
 1) Retrieves nutritional facts using Graphiti’s search client
 2) Generates professional clinical nutrition responses
 3) Evaluates outputs using Judgeval scorers for automated benchmarking and unit testing
 
 ### Folder Structure
-
 - `judegval-graphiti-agent.ipynb` – Main notebook with agent code, evaluation, and tests
 - `USDA-Food-Dataset/` – Folder containing USDA data for generating Knowledge Graph Triplets
 - `NutriBench.csv` – Benchmark dataset for evaluation
 - `README.md`
 
 
-Setup Instructions:
+### Setup Instructions:
 Clone the repository:
 - git clone https://github.com/vlds18/USDA-Knowledge-Graph-Agent-Graphiti.git
 - cd USDA-Knowledge-Graph-Agent-Graphiti
@@ -37,9 +36,9 @@ Set up environment variables for Judgeval and Graphiti:
 
 The notebook implements an async chatbot(state) function that retrieves context from Graphiti and generates nutrition answers using a bound LLM.
 
-Benchmark Evaluation:
+### Benchmark Evaluation:
 It loads a subset of the NutriBench dataset, runs the agent over the inputs, and evaluates outputs using the AnswerCorrectnessScorer from Judgeval.
 
-Unit Testing:
+### Unit Testing:
 Includes unit tests using InstructionAdherenceScorer to validate instruction following capabilities of the agent.
 
