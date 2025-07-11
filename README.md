@@ -1,4 +1,5 @@
--------------------------------------------------- HealthBot: Nutrition QA Agent with Judgeval Evaluation ----------------------------------------------------
+<h1 style="font-size:32px;">HealthBot: Nutrition QA Agent with Judgeval Evaluation</h1>
+ 
 This repository contains the implementation of HealthBot, a clinical nutrition question-answering agent. The agent integrates retrieval from a Graphiti knowledge graph with a large language model for response generation and is evaluated using Judgeval for faithfulness, correctness, and instruction adherence.
 
 Overview ->
