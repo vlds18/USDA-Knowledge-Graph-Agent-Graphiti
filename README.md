@@ -12,14 +12,14 @@ Frameworks: LangGraph, LangChain, Graphiti, Judgeval
 2) Generates professional clinical nutrition responses
 3) Evaluates outputs using Judgeval scorers for automated benchmarking and unit testing
 
-### Folder Structure
+### Folder atructure
 - `judegval-graphiti-agent.ipynb` – Main notebook with agent code, evaluation, and tests
 - `USDA-Food-Dataset/` – Folder containing USDA data for generating Knowledge Graph Triplets
 - `NutriBench.csv` – Benchmark dataset for evaluation
 - `README.md`
 
 
-### Setup Instructions:
+### Setup instructions:
 Clone the repository:
 - git clone https://github.com/vlds18/USDA-Knowledge-Graph-Agent-Graphiti.git
 - cd USDA-Knowledge-Graph-Agent-Graphiti
@@ -36,9 +36,9 @@ Set up environment variables for Judgeval and Graphiti:
 
 The notebook implements an async chatbot(state) function that retrieves context from Graphiti and generates nutrition answers using a bound LLM.
 
-### Benchmark Evaluation:
+### Benchmark evaluation:
 It loads a subset of the NutriBench dataset, runs the agent over the inputs, and evaluates outputs using the AnswerCorrectnessScorer from Judgeval.
 
-### Unit Testing:
+### Unit testing:
 Includes unit tests using InstructionAdherenceScorer to validate instruction following capabilities of the agent.
 
